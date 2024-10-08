@@ -17,19 +17,19 @@ class LinearLayoutExample: AppCompatActivity() {
         setContentView(binding.root)
 
         binding.button2.setOnClickListener {
-            val randomOddNumber = generateRandomOdd(1, 9)
+            val randomOddNumber = genRandom(1, 9)
             Toast.makeText(this, "Número gerado: $randomOddNumber", Toast.LENGTH_SHORT).show()
         }
 
        
         binding.button3.setOnClickListener {
-            val randomOddNumber = generateRandomOdd(11, 19)
+            val randomOddNumber = genRandom(11, 19)
             Toast.makeText(this, "Número gerado: $randomOddNumber", Toast.LENGTH_SHORT).show()
         }
 
     
         binding.button4.setOnClickListener {
-            val randomOddNumber = generateRandomOdd(21, 29)
+            val randomOddNumber = genRandom(21, 29)
             Toast.makeText(this, "Número gerado: $randomOddNumber", Toast.LENGTH_SHORT).show()
         }
 
@@ -43,7 +43,7 @@ class LinearLayoutExample: AppCompatActivity() {
         }
     }
     
-    private fun generateRandomOdd(start: Int, end: Int): Int {
+    private fun genRandom(start: Int, end: Int): Int {
         var randomOdd = (start..end).random()
         while (randomOdd % 2 == 0) {
             randomOdd = (start..end).random()
