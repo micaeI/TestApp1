@@ -13,5 +13,30 @@ class LinearLayoutExample: AppCompatActivity() {
 
         binding = LinerLayoutExampleBinding.inflate(layoutInflater)
         setContentView(binding.root)
-    }
+
+        binding.button2.setOnClickListener {
+            val randomOddNumber = generateRandomOdd(1, 9)
+            Toast.makeText(this, "Número gerado: $randomOddNumber", Toast.LENGTH_SHORT).show()
+        }
+
+       
+        binding.button3.setOnClickListener {
+            val randomOddNumber = generateRandomOdd(11, 19)
+            Toast.makeText(this, "Número gerado: $randomOddNumber", Toast.LENGTH_SHORT).show()
+        }
+
+    
+        binding.button4.setOnClickListener {
+            val randomOddNumber = generateRandomOdd(21, 29)
+            Toast.makeText(this, "Número gerado: $randomOddNumber", Toast.LENGTH_SHORT).show()
+        }
+
+         binding.button1.setOnClickListener {
+            val message = """
+                Botão 2 - ímpares 1 a 9
+                Botão 3 - ímpares 11 a 19
+                Botão 4 - ímpares 21 a 29
+            """
+            Toast.makeText(this, message, Toast.LENGTH_LONG).show()
+        }
 }
