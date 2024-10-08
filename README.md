@@ -6,8 +6,8 @@ IMPORTANTE:
 Obs.:
   - Projeto necessita de formatação e execução para testes
   - Erro em constraint layout
-  - Grid, Linear, Frame completos
-  - Constraint, coordinatos, relative and scroll are incomplete
+  - Grid, Linear, Frame, Relative completos
+  - Constraint, coordinatos, scroll are incomplete
   - frame layout pode ter sua imagem alterada para uma calculadora (icon)
   - Demais layouts incompletos
 
