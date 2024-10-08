@@ -51,6 +51,5 @@ class GridLayoutExample: AppCompatActivity() {
             val randomNumber = Random.nextInt(40, 50)
             Toast.makeText(this, "Número gerado: $randomNumber", Toast.LENGTH_SHORT).show()
            }
-        }
     }
 }
