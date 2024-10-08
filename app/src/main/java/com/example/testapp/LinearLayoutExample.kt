@@ -42,4 +42,12 @@ class LinearLayoutExample: AppCompatActivity() {
             Toast.makeText(this, message, Toast.LENGTH_LONG).show()
         }
     }
+    
+    private fun generateRandomOdd(start: Int, end: Int): Int {
+        var randomOdd = (start..end).random()
+        while (randomOdd % 2 == 0) {
+            randomOdd = (start..end).random()
+        }
+        return randomOdd
+    }
 }
