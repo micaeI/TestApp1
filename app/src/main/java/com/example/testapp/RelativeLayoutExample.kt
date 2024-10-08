@@ -17,13 +17,13 @@ class RelativeLayoutExample: AppCompatActivity() {
         setContentView(binding.root)
 
          binding.button1.setOnClickListener {
-            val multipleOfFive = generateMultipleOfFive(1, 100)
+            val multipleOfFive = genMul(1, 100)
             Toast.makeText(this, "Múltiplo de 5 gerado: $multipleOfFive", Toast.LENGTH_SHORT).show()
             binding.textView1.text = "Múltiplo de 5 gerado: $multipleOfFive"
         }
     }
     
-    private fun generateMultipleOfFive(start: Int, end: Int): Int {
+    private fun genMul(start: Int, end: Int): Int {
         val randomNumber = Random.nextInt(start, end)
         return (randomNumber / 5) * 5
     }
