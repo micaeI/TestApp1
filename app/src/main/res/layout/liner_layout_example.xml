@@ -13,22 +13,22 @@
         android:text="Geração de números ímpares - Linear layout" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/button1line"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Botão 1" />
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button2line"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Botão 2" />
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button3line"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Botão 3" />
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button4line"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Botão 4" />
