@@ -25,6 +25,6 @@ class RelativeLayoutExample: AppCompatActivity() {
     
     private fun generateMultipleOfFive(start: Int, end: Int): Int {
         val randomNumber = Random.nextInt(start, end)
-        return (randomNumber / 5) * 5 // Gera o múltiplo de 5 mais próximo do número aleatório gerado
+        return (randomNumber / 5) * 5
     }
 }
