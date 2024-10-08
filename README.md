@@ -4,8 +4,11 @@ IMPORTANTE:
   Projeto Incompleto
 
 Obs.:
+  - Projeto necessita de formatação e execução para testes
   - Erro em constraint layout
-  - Frame layout com alteração de imagem pendente
+  - Grid, Linear, Frame completos
+  - Constraint, coordinatos, relative and scroll are incomplete
+  - frame layout pode ter sua imagem alterada para uma calculadora (icon)
   - Demais layouts incompletos
 
 
