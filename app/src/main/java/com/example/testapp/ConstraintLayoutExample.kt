@@ -17,13 +17,12 @@ class ConstraintLayoutExample: AppCompatActivity() {
             enableEdgeToEdge()
             setContentView(R.layout.activity_main)
 
-            val button: Button = findViewById(R.id.button1)
-            button.setOnClickListener {
-                onButtonClick()
+
+            binding.button1co.setOnClickListener {
+            val randomOddNumber = genRandom(1, 9)
+            Toast.makeText(this, "Valor gerado: $rand", Toast.LENGTH_SHORT).show()
             }
+
         }
-        private fun onButtonClick() {
-            val rand = Random.nextInt(0, 101)
-            Toast.makeText(this, "Valor gerado: $rand" , Toast.LENGTH_SHORT).show()
-        }
+
     }
