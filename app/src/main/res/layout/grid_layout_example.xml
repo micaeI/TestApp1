@@ -9,6 +9,7 @@
     android:orientation="horizontal">
 
     <Button
+        android:id="@+id/button1grid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Botão 1"
@@ -16,6 +17,7 @@
         android:layout_column="0" />
 
     <Button
+        android:id="@+id/button2grid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Botão 2"
@@ -23,6 +25,7 @@
         android:layout_column="1" />
 
     <Button
+        android:id="@+id/button3grid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Botão 3"
@@ -30,6 +33,7 @@
         android:layout_column="2" />
 
     <Button
+        android:id="@+id/button4grid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Botão 4"
@@ -37,6 +41,7 @@
         android:layout_column="3" />
 
     <Button
+        android:id="@+id/button5grid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Botão 5"
@@ -44,6 +49,7 @@
         android:layout_column="1" />
 
     <Button
+        android:id="@+id/button6grid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Botão 6"
