@@ -25,7 +25,8 @@ class GridLayoutExample: AppCompatActivity() {
                 Botão 6 -  40 a 49
             """
             Toast.makeText(this, message, Toast.LENGTH_LONG).show()
-
+            }
+          
             binding.button2.setOnClickListener {
             val randomNumber = Random.nextInt(0, 10)
             Toast.makeText(this, "Número gerado: $randomNumber", Toast.LENGTH_SHORT).show()
