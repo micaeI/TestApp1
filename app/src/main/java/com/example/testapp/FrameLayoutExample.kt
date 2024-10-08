@@ -17,13 +17,11 @@ class FrameLayoutExample: AppCompatActivity() {
         binding = FrameLayoutExampleBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val button: Button = findViewById(R.id.button)
-        button.setOnClickListener {
-            onButtonClick()
-        }
-    }
-    private fun onButtonClick() {
-        val rand = Random.nextInt(0, 101) * 2 + 1
-        Toast.makeText(this, "Valor gerado: $rand", Toast.LENGTH_SHORT).show()
+         binding.button1grid.setOnClickListener {
+            val message = """
+                Botão do frame layout
+            """
+            Toast.makeText(this, message, Toast.LENGTH_LONG).show()
+            }
     }
     }
