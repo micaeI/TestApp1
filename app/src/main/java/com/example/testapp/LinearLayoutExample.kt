@@ -3,6 +3,7 @@ package com.example.testapp
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.testapp.databinding.LinerLayoutExampleBinding
+import android.widget.Toast
 
 class LinearLayoutExample: AppCompatActivity() {
 
